@@ -10,8 +10,7 @@ Delivered firmware implementation (C/C++)  in a 4-person team and led further im
 ## Project 
 
 <img width="1920" height="1080" alt="JAJA MECH (2)" src="https://github.com/user-attachments/assets/4ed21667-7108-4c1b-a5ac-42b14b1837e7" />
-
-<img width="1920" height="1080" alt="JAJA MECH (1)" src="https://github.com/user-attachments/assets/6eb3f614-66d1-4332-945e-da9e17d64294" />
+<img width="1920" height="1080" alt="JAJA MECH" src="https://github.com/user-attachments/assets/3c61047c-8241-4900-b643-acb7b76f11c6" />
 
 ## Further changes
 <img width="1919" height="1140" alt="image" src="https://github.com/user-attachments/assets/226c0269-ac9e-4435-bf32-10822c2fafc9" />
