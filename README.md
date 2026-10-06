@@ -7,8 +7,11 @@ real-time motor control. Built during a NASA California Space Grant Summer Inter
 
 Delivered firmware implementation (C/C++)  in a 4-person team and led further improvements covering rover movement, sensor integration, and wireless telemetry
 
-## Watch the project presentation on Youtube
+## Project 
 
+<img width="1920" height="1080" alt="JAJA MECH (2)" src="https://github.com/user-attachments/assets/4ed21667-7108-4c1b-a5ac-42b14b1837e7" />
+
+<img width="1920" height="1080" alt="JAJA MECH (1)" src="https://github.com/user-attachments/assets/6eb3f614-66d1-4332-945e-da9e17d64294" />
 
 ## Further changes
 <img width="1919" height="1140" alt="image" src="https://github.com/user-attachments/assets/226c0269-ac9e-4435-bf32-10822c2fafc9" />
