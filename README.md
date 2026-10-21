@@ -16,7 +16,7 @@ Delivered firmware implementation (C/C++)  in a 4-person team and led further im
 
 Added a webserver to display live sensor data remotely and toggle states at 2hz refresh. You can hover any point on each graph to check the specific measurement value at that certain time
 
-## Some Controller Changes
+A few changes to the controller:
 <img width="1280" height="720" alt="JAJA MECH (2)" src="https://github.com/user-attachments/assets/4ed21667-7108-4c1b-a5ac-42b14b1837e7" />
 
 Sources:
