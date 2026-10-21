@@ -9,13 +9,15 @@ Delivered firmware implementation (C/C++)  in a 4-person team and led further im
 
 ## Project Details
 
-<img width="1920" height="1080" alt="JAJA MECH (2)" src="https://github.com/user-attachments/assets/4ed21667-7108-4c1b-a5ac-42b14b1837e7" />
 <img width="1920" height="1080" alt="JAJA MECH" src="https://github.com/user-attachments/assets/3c61047c-8241-4900-b643-acb7b76f11c6" />
 
 ## Further changes
 <img width="1919" height="1140" alt="image" src="https://github.com/user-attachments/assets/226c0269-ac9e-4435-bf32-10822c2fafc9" />
 
 Added a webserver to display live sensor data remotely and toggle states at 2hz refresh. You can hover any point on each graph to check the specific measurement value at that certain time
+
+## Remote Controller
+<img width="1920" height="1080" alt="JAJA MECH (2)" src="https://github.com/user-attachments/assets/4ed21667-7108-4c1b-a5ac-42b14b1837e7" />
 
 Sources:
 - https://randomnerdtutorials.com/esp32-bme680-web-server-arduino/
