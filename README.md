@@ -19,6 +19,3 @@ Added a webserver to display live sensor data remotely and toggle states at 2hz 
 A few changes to the controller:
 <img width="1280" height="720" alt="JAJA MECH (2)" src="https://github.com/user-attachments/assets/4ed21667-7108-4c1b-a5ac-42b14b1837e7" />
 
-Sources:
-- https://randomnerdtutorials.com/esp32-bme680-web-server-arduino/
-- https://developer.mozilla.org/en-US/docs/Web/API/Element/mousemove_event
