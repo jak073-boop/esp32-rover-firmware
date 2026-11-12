@@ -13,7 +13,7 @@ Controller ESP32 reads two joysticks and buttons, then sends a control packet to
 
 **Sensors:** BME260 and Capacitive Soil Moisture Sensor
 
-**Power:** Separate supplies for motors, servos, and controller. Upgraded to higher-capacity external battery due to original batteries not delivering enough current and causing brownouts. 
+**Power:** Separate supplies for motors/servos, and controller, 
 
 ## Communication Design
 
