@@ -11,9 +11,9 @@ Delivered firmware implementation (C/C++)  in a 4-person team and led further im
 
 Controller ESP32 reads two joysticks and buttons, then sends a control packet to the rover over ESP-NOW every 500 ms. Second ESP32 on the rover drives mecanum wheel motors, read sensors, sends a telemetry packet to Controller ESP32, and controls a 3 servo arm for grip, lift, and tilt.
 
-Sensors: BME260 and Capacitive Soil Moisture Sensor
+**Sensors:** BME260 and Capacitive Soil Moisture Sensor
 
-Power: Separate supplies for motors, servos, and controller. Upgraded to higher-capacity external battery due to original batteries not delivering enough current and causing brownouts. 
+**Power:** Separate supplies for motors, servos, and controller. Upgraded to higher-capacity external battery due to original batteries not delivering enough current and causing brownouts. 
 
 ## Communication Design
 
@@ -30,6 +30,6 @@ Added a webserver to display live sensor data remotely and toggle states at 2hz 
 ## Controller Iterations
 <img width="1280" height="720" alt="JAJA MECH (2)" src="https://github.com/user-attachments/assets/4ed21667-7108-4c1b-a5ac-42b14b1837e7" />
 
-1. basic arm controll and joystick
+1. basic arm control and joystick
 2. added mode a mode button, green for arm and red for arm, one-at-a-time movement and revealed jitter
 3. non-blocking loop, simulatenous rover and arm motion, remote sensor toggling, and telemetry 
