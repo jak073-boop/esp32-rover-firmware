@@ -31,7 +31,8 @@ Controller ESP32 reads two joysticks and buttons, then sends a control packet to
 3. **Power issues under load:** when programmed to have multiple servos and motors moving at once, there were ESP32 shutdowns and motors/servos stalled as the current supply couldn't keep up with the current spikes. Moved the actuators to a higher-capacity external supply (5V, up to 3A) with controller on separate power. 
 
 ## Live Sensor Dashboard
-<img width="1919" height="1140" alt="Sensor Dashboard" src="https://github.com/user-attachments/assets/226c0269-ac9e-4435-bf32-10822c2fafc9" />
+
+<img width="802" height="206" alt="sensor live dashboard" src="https://github.com/user-attachments/assets/43fd7459-1a6b-4437-9ac8-6d46d0f32962" />
 
 Added a webserver to display live sensor data remotely and toggle states at 2 Hz refresh. Hover any point on each graph to check the exact reading from beginning to current time.
 
