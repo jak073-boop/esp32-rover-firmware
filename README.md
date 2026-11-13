@@ -19,12 +19,12 @@ Controller ESP32 reads two joysticks and buttons, then sends a control packet to
 
 <img width="1920" height="1080" alt="System diagram" src="https://github.com/user-attachments/assets/3c61047c-8241-4900-b643-acb7b76f11c6" />
 
-**Control packet from controller -> rover**: joystick positions, button states, and sensor toggle flags
-**Telemetry packet from rover -> controller**: latest sensor readings, only sent to the controller when sensors are enabled
+- **Control packet from controller -> rover**: joystick positions, button states, and sensor toggle flags
+- **Telemetry packet from rover -> controller**: latest sensor readings, only sent to the controller when sensors are enabled
 
 ## Problems & Fixes
 
-1. **Arm and rover can't move at the same time:** added nonblocking timing where every task runs on it's own interval.
+1. **Arm and rover could not move at the same time:** added nonblocking timing where every task runs on it's own interval.
 
 2. **Sensor LEDs flickering while button was held:** holding button for half a second flickered and sensor ends up in random state when let go. Added edge detection so it only acts at the moment the button goes from released to pressed. Also debouncing between pressed and released for a few milliseconds before settling which waits 20 ms and checks again to make sure it was a real press.
 
